@@ -349,14 +349,17 @@ def export_mood(current_user_id):
     return response
 
 # --- HEALTH CHECK / API INFO ---
-@app.route('/api', methods=['GET'])
+@app.route("/", methods=["GET"])
+@app.route("/api", methods=["GET"])
 def api_root():
     return jsonify({
-        'name': 'Chitraksha API',
-        'status': 'Alive',
-        'dual_mode_rag': 'ML' if rag_brain.use_ml_rag else 'Fallback Python Vectorizer'
+        "name": "Chitraksha API",
+        "status": "Alive",
+        "message": "Backend working successfully",
+        "dual_mode_rag": "ML" if rag_brain.use_ml_rag else "Fallback Python Vectorizer"
     }), 200
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     print(f"Starting Chitraksha Flask backend on port {Config.PORT}...")
-    app.run(host='0.0.0.0', port=Config.PORT, debug=Config.DEBUG)
+    app.run(host="0.0.0.0", port=Config.PORT, debug=Config.DEBUG)
