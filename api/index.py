@@ -357,6 +357,3 @@ def api_root():
         'dual_mode_rag': 'ML' if rag_brain.use_ml_rag else 'Fallback Python Vectorizer'
     }), 200
 
-if __name__ == '__main__':
-    print(f"Starting Chitraksha Flask backend on port {Config.PORT}...")
-    app.run(host='0.0.0.0', port=Config.PORT, debug=Config.DEBUG)
