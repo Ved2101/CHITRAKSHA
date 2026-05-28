@@ -1,0 +1,26 @@
+
+> frontend@0.1.0 dev
+> next dev
+
+node:fs:435
+    return binding.readFileUtf8(path, stringToFlags(options.flag));
+                   ^
+
+Error: ETIMEDOUT: connection timed out, read
+    at Object.readFileSync (node:fs:435:20)
+    at defaultLoadImpl (node:internal/modules/cjs/loader:1147:17)
+    at loadSource (node:internal/modules/cjs/loader:1837:20)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1935:44)
+    at Module.load (node:internal/modules/cjs/loader:1532:32)
+    at Module._load (node:internal/modules/cjs/loader:1334:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.require (node:internal/modules/cjs/loader:1555:12)
+    at mod.require (/Users/vedantmahale/Desktop/chitraksha/frontend/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16) {
+  errno: -60,
+  code: 'ETIMEDOUT',
+  syscall: 'read'
+}
+
+Node.js v25.6.1
+[?25h

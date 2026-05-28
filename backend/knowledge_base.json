@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Box Breathing Technique for Acute Anxiety",
+    "category": "Breathing Exercise",
+    "content": "Box breathing is a powerful, simple relaxation technique that can help clear your mind, relax your body, and improve focus. Also known as four-square breathing, it involves: 1) Inhale slowly through your nose for a count of 4. 2) Hold your breath for another count of 4. 3) Exhale slowly through your mouth for a count of 4. 4) Hold your lungs empty for a count of 4. Repeat this cycle 4 to 5 times. It triggers the parasympathetic nervous system, lowering your heart rate and reducing stress hormones quickly."
+  },
+  {
+    "id": 2,
+    "title": "5-4-3-2-1 Grounding Technique for Panic Attacks",
+    "category": "Grounding Exercise",
+    "content": "When feeling overwhelmed or during a panic attack, grounding techniques help bring your focus back to the present moment. The 5-4-3-2-1 method is a sensory awareness exercise: Identify 5 things you can see around you (like a pen or spot on the wall); 4 things you can physically feel (like your feet on the ground or fabric of your shirt); 3 things you can hear (like traffic, birds, or hum of a fan); 2 things you can smell (like coffee, soap, or the air); and 1 thing you can taste. This shifts attention away from internal anxiety towards external reality."
+  },
+  {
+    "id": 3,
+    "title": "Coping with Exam Stress and Academic Pressure",
+    "category": "Exam Stress",
+    "content": "Exam anxiety and academic pressure are common. To cope effectively: 1) Break down study materials into small, manageable chunks instead of cramming. 2) Implement the Pomodoro technique (study for 25 minutes, then rest for 5 minutes). 3) Ensure 7-8 hours of sleep, as sleep deprivation severely impairs memory and emotional regulation. 4) Practice positive self-talk, replacing 'I am going to fail' with 'I have prepared, and I will do my best'. Remember, exams test your preparation, not your worth as a person."
+  },
+  {
+    "id": 4,
+    "title": "Understanding Cognitive Distortions: Catastrophizing",
+    "category": "CBT Techniques",
+    "content": "Catastrophizing is a cognitive distortion where we assume the absolute worst-case scenario will happen, even when there's little evidence. For example: 'If I fail this exam, I will drop out, never get a job, and ruin my life.' To challenge catastrophizing: 1) Ask yourself: What is the absolute worst that could happen, and how would I cope? 2) What is the absolute best that could happen? 3) What is the most realistic or likely outcome? 4) Recognize that thoughts are not facts; they are just mental hypotheses."
+  },
+  {
+    "id": 5,
+    "title": "Overcoming Sleep Difficulties and Racing Thoughts",
+    "category": "Sleep Support",
+    "content": "If racing thoughts prevent you from falling asleep, practice cognitive offloading: keep a 'worry journal' by your bed and write down all your thoughts, tasks, and concerns before trying to sleep. This signals to your brain that the information is safe and doesn't need to be actively processed. Additionally, practice the 'Brain Dump' or progressive muscle relaxation—tensing and then releasing muscles from your toes to your forehead. Maintain a cool, dark room and avoid screen usage at least 30 minutes before bedtime."
+  },
+  {
+    "id": 6,
+    "title": "Dealing with Loneliness and Building Connections",
+    "category": "Emotional Exhaustion",
+    "content": "Loneliness is a natural indicator that we need connection, just as hunger indicates we need food. To address loneliness: 1) Acknowledge the feeling without self-judgment. 2) Take small steps towards connection, like messaging a friend, calling a family member, or joining a local community or online hobby group. 3) Limit social media use, as it often worsens feelings of isolation through upward comparison. 4) Focus on self-compassion: treat yourself with the kindness you would offer to a friend in a similar situation."
+  },
+  {
+    "id": 7,
+    "title": "Coping with Relationship Conflict and Heartbreak",
+    "category": "Relationship Stress",
+    "content": "Relationship distress or heartbreak can feel like physical pain. To heal: 1) Allow yourself to grieve; repressing sadness or anger only delays healing. 2) Set clear boundaries, including taking a break from contacting the person to allow emotional stabilization. 3) Reconnect with your individual identity, hobbies, and supportive friends. 4) Practice mindfulness: observe your painful feelings as passing waves that will rise, peak, and eventually subside, rather than permanent fixtures of your life."
+  },
+  {
+    "id": 8,
+    "title": "Managing Stress and Burnout at Work",
+    "category": "Workplace Stress",
+    "content": "Burnout occurs when long-term stress exhausts your emotional, mental, and physical resources. To recover from or prevent burnout: 1) Set clear boundaries between work and personal time—disable notifications after hours. 2) Prioritize tasks using the Eisenhower Matrix (urgent vs. important). 3) Schedule micro-breaks throughout the day to step away from your desk. 4) Communicate with your manager or team about workload adjustments. Remember, productivity is not a measure of your human value."
+  }
+]

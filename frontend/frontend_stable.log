@@ -1,0 +1,21 @@
+
+> frontend@0.1.0 dev
+> next dev
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3000
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 3.1s
+ ○ Compiling / ...
+ ✓ Compiled / in 28.7s (523 modules)
+ GET / 200 in 28848ms
+ ✓ Compiled in 115ms (255 modules)
+ ✓ Compiled /favicon.ico in 361ms (603 modules)
+ GET /favicon.ico 200 in 410ms
+ GET / 200 in 90ms
+ GET / 200 in 339ms
+ GET / 200 in 93ms
+ ✓ Compiled in 533ms (285 modules)
+ ✓ Compiled in 128ms (285 modules)

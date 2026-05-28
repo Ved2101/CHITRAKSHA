@@ -1,0 +1,25 @@
+
+> frontend@0.1.0 dev
+> next dev
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3000
+  - Environments: .env.local
+
+ ✓ Starting...
+Error: ETIMEDOUT: connection timed out, read
+    at Object.readFileSync (node:fs:448:20)
+    at loadSource (node:internal/modules/cjs/loader:1548:17)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1617:44)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+    at mod.require (/Users/vedantmahale/Desktop/chitraksha/frontend/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/Users/vedantmahale/Desktop/chitraksha/frontend/node_modules/next/dist/lib/verify-typescript-setup.js:18:35)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14) {
+  errno: -60,
+  code: 'ETIMEDOUT',
+  syscall: 'read'
+}
+[?25h
