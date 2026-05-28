@@ -1,25 +1,21 @@
 from flask import Flask, jsonify
+from flask_cors import CORS
 
 app = Flask(__name__)
-
-from flask import Flask, jsonify
-
-app = Flask(__name__)
-
+CORS(app)
 
 @app.route("/")
 def home():
     return jsonify({
-        "message": "Backend is working successfully"
+        "status": "success",
+        "message": "Chitraksha backend running"
     })
 
-
-@app.route("/health")
-def health():
+@app.route("/api")
+def api():
     return jsonify({
-        "status": "healthy"
+        "api": "working"
     })
-
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True)
