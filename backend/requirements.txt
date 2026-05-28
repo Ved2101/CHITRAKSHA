@@ -1,13 +1,2 @@
 Flask==3.0.3
-Flask-Cors==4.0.1
-PyJWT==2.8.0
-werkzeug==3.0.3
-python-dotenv==1.0.1
-groq==0.9.0
-numpy
-scikit-learn
-# Optional but primary for RAG (falls back to scikit-learn if these cannot install/load)
-sentence-transformers
-faiss-cpu
-requests
-google-generativeai
+gunicorn==22.0.0
