@@ -356,4 +356,12 @@ def api_root():
         'status': 'Alive',
         'dual_mode_rag': 'ML' if rag_brain.use_ml_rag else 'Fallback Python Vectorizer'
     }), 200
+@app.route("/")
+@app.route("/")
+def home():
+    return {
+        "message": "Backend is running successfully"
+    }
 
+if __name__ == "__main__":
+    app.run()
